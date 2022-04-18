@@ -19,14 +19,14 @@ stop
 ## Program:
 ~~~c#
 using System;
-namespace hello
+namespace Hello
 {
 class large
 {
     static void Main(string[] args)
     { 
         int num1,num2,num3;
-        Console.WriteLine ("Enter Three integers:");
+        Console.WriteLine ("Enter Three integer:");
         num1=Convert.ToInt32(Console.ReadLine());
         num2=Convert.ToInt32(Console.ReadLine());
         num3=Convert.ToInt32(Console.ReadLine());
@@ -34,22 +34,24 @@ class large
         {
             if(num1>num3)
             {
-                Console.WriteLine(Num 1 + " is Greater");
+                Console.WriteLine("Num 1 is Greater");
             }
             else
             {
-               Console.WriteLine(Num 3 + " is Greater");  
+               Console.WriteLine("Num 3 is Greater");  
             }
         }
         else
         { 
             if(num2>num3)
             {
-                Console.WriteLine(Num 2 + " is Greater");
+                Console.WriteLine("Num 2 is Greater");
+                
             }
             else
             {
-                Console.WriteLine(Num 3 + " is Greater");
+                Console.WriteLine("Num 3 is Greater");
+                
             }
         }
 
@@ -59,7 +61,8 @@ class large
 ~~~
 
 ## Output:
-![Exp1](https://user-images.githubusercontent.com/75235386/163832721-44574f95-1a0f-4a39-b2a7-5f8cfdc62eb0.png)
+![Online C# Compiler - online editor - Google Chrome 16-04-2022 12_52_08](https://user-images.githubusercontent.com/75235386/163838316-0d33abbd-c6f0-4ccc-b75c-87f4142edaf0.jpg)
+
 
 ## Result:
 Thus the C# program to find the largest of three numbers is executed successfully
